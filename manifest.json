@@ -7,5 +7,11 @@
     "default_icon": "img/icon.png",
     "default_popup": "html/popup.html",
     "default_title":"Wakarank"
+  },
+  "background": {
+    "scripts": [
+      "js/jquery.min.js",
+      "js/background.js"
+    ]
   }
 }
