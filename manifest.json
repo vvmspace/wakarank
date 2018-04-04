@@ -13,5 +13,12 @@
       "js/jquery.min.js",
       "js/background.js"
     ]
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["js/jquery.min.js", "js/content.js"],
+      "matches": ["*://*/*"],
+      "run_at": "document_start"
+    }
+  ]
 }
